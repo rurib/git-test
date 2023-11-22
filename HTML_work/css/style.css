@@ -1,12 +1,17 @@
 body {
-    background-color: blueviolet;
-    background-image:url(../img/fancy-cushion.webp);
+    background-color: lightblue;
     color: white;
-    font-size: 18px;
+    font-size: 21px;
+
+    font-family: Optima, Candara, 'Noto Sans', 
+    source-sans-pro, sans-serif;
 }
 
 p {
     color: black;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height:1.4;
 }
 
 .intro{
@@ -16,7 +21,17 @@ p {
 
 h1 {
     font-size: 70px;
-    color: pink;
+    color: blue;
+    font-family: 'Iowan Old Style', 'Palatino Linotype', 
+    'URW Palladio L', P052, serif;
+
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 35px;
+    color: black;
+    margin-top: 0px;
 }
 
 
