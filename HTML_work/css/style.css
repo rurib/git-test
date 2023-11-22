@@ -1,14 +1,44 @@
 body {
-    background-color: #000;
+    background-color: blueviolet;
+    background-image:url(../img/fancy-cushion.webp);
     color: white;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 p {
-    color: #ffc00f;
+    color: black;
+}
+
+.intro{
+    font-size: 30px;
+    color: blue;
 }
 
 h1 {
     font-size: 70px;
     color: pink;
 }
+
+
+.box {
+    background-image: url(../img/dice.png);
+    width: 300px;
+    
+    margin: 100px;
+    padding: 200px 100px; 
+    /* top right bottom left */
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* this is a css comment - for the CSS box model */
+
+/* parts  for the CSS box model 
+    Margin: empty space around my element
+    Border: a border around my element
+    Padding: empty space WITH background around my element
+
+    ALL of these ADD on top of the width and height!
+*/
+
