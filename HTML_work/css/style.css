@@ -1,29 +1,42 @@
 body {
     background-color: lightblue;
-    color: white;
-    font-size: 21px;
-
-    font-family: Optima, Candara, 'Noto Sans', 
-    source-sans-pro, sans-serif;
 }
 
 p {
-    color: black;
     margin-top: 0px;
     margin-bottom: 20px;
     line-height:1.4;
 }
 
-.intro{
-    font-size: 30px;
-    color: blue;
+a{
+    color: green;
+    text-decoration: none;
 }
+
+
+a:hover,
+a:focus{
+    color:yellow;
+}
+
+
+
+/* pseudoclass is related to a state of being ; PSEUDOCLASSES HAVE TO BE IN THIS ORDER
+a:link : color of links
+a:visited - color of link that you've already visited
+a:hover - color of link while you hover
+a:active - color it turns while you click
+
+extra: a:focus lets you tab through links
+
+*/
 
 h1 {
     font-size: 70px;
     color: blue;
     font-family: 'Iowan Old Style', 'Palatino Linotype', 
     'URW Palladio L', P052, serif;
+    margin-top: 0px;
 
     margin-bottom: 0px;
 }
@@ -35,17 +48,6 @@ h2 {
 }
 
 
-.box {
-    background-image: url(../img/dice.png);
-    width: 300px;
-    
-    margin: 100px;
-    padding: 200px 100px; 
-    /* top right bottom left */
-
-    background-size: cover;
-    background-position: center;
-}
 
 /* this is a css comment - for the CSS box model */
 
@@ -57,3 +59,11 @@ h2 {
     ALL of these ADD on top of the width and height!
 */
 
+.body-text {
+    background-color: #79acd1;
+    padding: 50px;
+}
+
+.body-text p {
+    color:red;
+}
