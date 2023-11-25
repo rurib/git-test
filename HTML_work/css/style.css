@@ -61,9 +61,25 @@ h2 {
 
 .body-text {
     background-color: #79acd1;
-    padding: 50px;
+    
 }
 
 .body-text p {
     color:red;
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+/*ul {
+    list-style-image: url(../img/icon.png);
+}*/
+
+.container{
+    background: white;
+    width: 70%; 
+    max-width: 1000px;
+    margin: 0 auto;
+
 }
